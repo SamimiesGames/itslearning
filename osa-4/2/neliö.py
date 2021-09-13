@@ -13,10 +13,10 @@ def viiva(width, string):
         print(empty_char_fill * width)
 
 
-def risunelio(size):
+def nelio(size, character):
     for y in range(size):
-        viiva(size, "#")
+        viiva(size, character)
 
 
 if __name__ == '__main__':
-    risunelio(3)
+    nelio(3, "o")
