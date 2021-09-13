@@ -13,9 +13,22 @@ def viiva(width, string):
         print(empty_char_fill * width)
 
 
-def kuvio(header_size, header, footer_size, footer):
-    ...
+def kolmio(size, string):
+    for index in range(size):
+        width = index + 1
+
+        viiva(width, string)
+
+
+def nelio(height, width, character):
+    for y in range(height):
+        viiva(width, character)
+
+
+def kuvio(width, header, height, footer):
+    kolmio(width, header)
+    nelio(height, width, footer)
 
 
 if __name__ == '__main__':
-    kuvio("o", 3, "x", 5)
+    kuvio(3, "o", 5, "x")
