@@ -6,3 +6,4 @@ def keskiarvo(a, b, c):
 if __name__ == "__main__":
     keskiarvo(5, 3, 1)
     keskiarvo(10, 1, 1)
+
