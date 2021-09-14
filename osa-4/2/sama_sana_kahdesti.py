@@ -10,4 +10,4 @@ while True:
     words.append(word)
 
 
-print(f"Annoit {len(words)} eri sanaa.")
+print(f"Annoit {len(words)} eri sanaa")
