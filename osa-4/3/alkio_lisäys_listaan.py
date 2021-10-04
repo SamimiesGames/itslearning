@@ -1,7 +1,7 @@
-NUM_AMOUNT = int(input("NUMBER: "))
+num_amount = int(input("NUMBER: "))
 numbers = []
 
-for i in range(NUM_AMOUNT):
+for i in range(num_amount):
     number = int(input("NUMBER: "))
     numbers.append(number)
 
