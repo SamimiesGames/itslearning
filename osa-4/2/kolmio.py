@@ -14,8 +14,8 @@ def viiva(width, string):
 
 
 def kolmio(size):
-    for index in range(size):
-        width = index + 1
+    for y in range(size):
+        width = y + 1
 
         viiva(width, "#")
 
